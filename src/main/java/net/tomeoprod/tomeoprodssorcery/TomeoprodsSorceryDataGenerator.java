@@ -1,9 +1,9 @@
-package net.tomeoprod.frigielssorcery;
+package net.tomeoprod.tomeoprodssorcery;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class FrigielsSorceryDataGenerator implements DataGeneratorEntrypoint {
+public class TomeoprodsSorceryDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

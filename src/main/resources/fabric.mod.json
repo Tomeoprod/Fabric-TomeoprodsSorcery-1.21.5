@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "frigielssorcery",
+	"id": "tomeoprodssorcery",
 	"version": "${version}",
-	"name": "Frigiel's Sorcery",
+	"name": "Tomeoprod's Sorcery",
 	"description": "This is a Mod that imagines what the sorcery found in the Frigiel and Fluffy books would be like in Minecraft",
 	"authors": [
 		"Tomeoprod"
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/frigielssorcery/icon.png",
+	"icon": "assets/tomeoprodssorcery/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.tomeoprod.frigielssorcery.FrigielsSorcery"
+			"net.tomeoprod.tomeoprodssorcery.TomeoprodsSorcery"
 		],
 		"fabric-datagen": [
-			"net.tomeoprod.frigielssorcery.FrigielsSorceryDataGenerator"
+			"net.tomeoprod.tomeoprodssorcery.TomeoprodsSorceryDataGenerator"
 		],
 		"client": [
-			"net.tomeoprod.frigielssorcery.FrigielsSorceryClient"
+			"net.tomeoprod.tomeoprodssorcery.TomeoprodsSorceryClient"
 		]
 	},
 	"mixins": [
-      "frigielssorcery.mixins.json"
+		"tomeoprodssorcery.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
