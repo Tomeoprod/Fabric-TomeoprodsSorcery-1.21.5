@@ -9,7 +9,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item ESSENCE_BELT = registerItem("essence_belt", new Item(new Item.Settings()));
-
+    public static final Item GOLD_ESSENCE_BELT = registerItem("gold_essence_belt", new Item(new Item.Settings()));
+    public static final Item DIAMOND_ESSENCE_BELT = registerItem("diamond_essence_belt", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TomeoprodsSorcery.MOD_ID, name), item);
@@ -20,6 +21,8 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(ESSENCE_BELT);
+            entries.add(GOLD_ESSENCE_BELT);
+            entries.add(DIAMOND_ESSENCE_BELT);
         });
     }
 }
