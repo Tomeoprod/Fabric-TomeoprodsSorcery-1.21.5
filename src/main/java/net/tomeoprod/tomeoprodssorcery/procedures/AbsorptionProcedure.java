@@ -5,7 +5,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.util.ActionResult;
 
 public class AbsorptionProcedure {
-    public void absorbGrassBlock() {
+    public static void absorbGrassBlock() {
         UseBlockCallback.EVENT.register((playerEntity, world, hand, blockHitResult) -> {
             ActionResult result = ActionResult.PASS;
             if (world.getBlockState(blockHitResult.getBlockPos()) == Blocks.GRASS_BLOCK.getDefaultState()) {

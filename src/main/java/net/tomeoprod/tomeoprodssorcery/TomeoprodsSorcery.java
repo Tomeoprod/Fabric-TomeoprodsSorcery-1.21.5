@@ -13,5 +13,6 @@ public class TomeoprodsSorcery implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		TomeoprodSorceryProcedures.load();
+		ModItems.registerModItems();
 	}
 }
