@@ -12,8 +12,8 @@ public class AbsorptionProcedure {
                 if (playerEntity.getMainHandStack().isEmpty()) {
                     world.setBlockState(blockHitResult.getBlockPos(), Blocks.BEDROCK.getDefaultState());
                     result = ActionResult.SUCCESS;
-                };
-            };
+                }
+            }
             return result;
         });
     }
